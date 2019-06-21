@@ -203,7 +203,7 @@ choco install -y adoptopenjdk8 adoptopenjdk11 adoptopenjdk
 # https://www.jetbrains.com/phpstorm
 # https://www.jetbrains.com/ruby
 # https://www.jetbrains.com/pycharm
-choco install -y jetbrainstoolbox
+choco install -y jetbraintoolbox
 #choco install -y intellijidea-ultimate
 #choco instlal -y RubyMine
 #choco install -y Pycharm
@@ -212,6 +212,10 @@ choco install -y jetbrainstoolbox
 #choco install -y resharper-ultimate-all
 #choco install -y datagrip
 
+
+# R Project for Statistical Computing
+# https://www.r-project.org
+choco install r.project
 
 # R Studio Desktop
 # https://www.rstudio.com
