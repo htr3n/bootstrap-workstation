@@ -203,7 +203,7 @@ choco install -y adoptopenjdk8 adoptopenjdk11 adoptopenjdk
 # https://www.jetbrains.com/phpstorm
 # https://www.jetbrains.com/ruby
 # https://www.jetbrains.com/pycharm
-choco install -y jetbraintoolbox
+choco install -y jetbrainstoolbox
 #choco install -y intellijidea-ultimate
 #choco instlal -y RubyMine
 #choco install -y Pycharm
