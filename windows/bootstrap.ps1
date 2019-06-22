@@ -3,15 +3,15 @@
 # NOTES
 #
 #   This script must be executed using PowerShell with appropriate policy.
-#   Normally, Windows restricts the execution of scripts due to security 
-#   reason. As a result, you may see the error saying the execution of 
-#   this script is disabled, etc. 
-#    
-#   To overcome that issue, you must either set the policy in a PowerShell 
+#   Normally, Windows restricts the execution of scripts due to security
+#   reason. As a result, you may see the error saying the execution of
+#   this script is disabled, etc.
+#
+#   To overcome that issue, you must either set the policy in a PowerShell
 #   as Administrator.
-#   
+#
 #          Set-ExecutionPolicy RemoteSigned
-#  
+#
 #   After finishing the installation, you can reset the policy
 #
 #          Set-ExecutionPolicy Restricted
@@ -73,9 +73,9 @@ choco install -y GoogleChrome
 
 # Chromium
 # http://www.chromium.org
-# Notes: Chromium is sometimes complained by or refused to work with some 
+# Notes: Chromium is sometimes complained by or refused to work with some
 # tools, especially password managers, as not code signed.
-# 
+#
 choco install -y chromium
 
 # Opera
@@ -148,7 +148,7 @@ choco install -y vscode
 # https://github.com/vscodium/vscodium
 choco install -y vscodium
 
-# Visual Studio 
+# Visual Studio
 # https://visualstudio.microsoft.com
 
 # 2015
@@ -255,13 +255,13 @@ choco install -y windbg
 # https://typora.io/#windows
 choco install -y typora
 
-# Notepad++ 
+# Notepad++
 # https://notepad-plus-plus.org
 choco install -y notepadplusplus
 
 # Emacs
 # http://www.gnu.org/software/emacs/
-choco install -y Emacs
+#choco install -y Emacs
 
 ##########################################################################
 # MEDIA
@@ -282,7 +282,7 @@ choco install -y mpv
 
 # MikTeX
 # https://miktex.org/download
-choco install -y miktex
+#choco install -y miktex
 
 # TeXstudio
 # https://www.texstudio.org
@@ -304,7 +304,7 @@ choco install -y winedt
 choco install -y FiraCode
 choco install -y SourceCodePro
 #choco install -y hackfont
-choco install -y EnvyCodeR
+#choco install -y EnvyCodeR
 choco install -y DroidSansMono
 choco install -y RobotoFonts
 
@@ -383,7 +383,7 @@ choco install -y curl
 
 # GNU Wget
 # http://ftp.gnu.org/gnu/wget/
-choco install -y wget 
+choco install -y wget
 
 # GNU sed
 # https://www.gnu.org/software/sed/
@@ -393,7 +393,7 @@ choco install -y sed
 # https://www.gnu.org/software/gawk/
 choco install -y awk
 
-# 
+#
 # OpenSSH
 # https://www.openssh.com
 choco install -y openssh
