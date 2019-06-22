@@ -29,7 +29,6 @@ sudo add-apt-repository ppa:graphics-drivers/ppa
 
 ### [Snapcraft](https://snapcraft.io/)
 
-
 ## Software & Tools
 
 ### Systems
@@ -83,7 +82,7 @@ sudo update-grub
 sudo dpkg-reconfigure keyboard-configuration
 ```
 
-or 
+or
 
 ```sh
 sudo vi /etc/default/keyboard
@@ -128,14 +127,11 @@ Or
 wget -O https://www.dropbox.com/download?dl=packages/ubuntu/dropbox_2019.02.14_amd64.deb | sudo dpkg -i
 ```
 
-
 ### Development Tools
 
 ```sh
 sudo apt install -y git
 ```
-
-
 
 #### Java
 
@@ -184,7 +180,6 @@ sudo update-alternatives --config java
 sudo apt-get install -y php
 ```
 
-
 ### Text/Code/Markdown Editors
 
 #### Setting Default Text Editor
@@ -198,8 +193,6 @@ Or Debian-based
 ```sh
 sudo update-alternatives --set editor /usr/bin/code
 ```
-
-
 
 #### Vim / Neovim
 
@@ -229,8 +222,6 @@ sudo apt-get update
 sudo apt-get install code
 ```
 
-
-
 #### Sublime Text 3
 
 ####  [Typora](https://typora.io/#linux)
@@ -247,6 +238,3 @@ sudo apt-get install typora
 ```
 
 Or download from <https://typora.io/linux/Typora-linux-x64.tar.gz>.
-
-
-
