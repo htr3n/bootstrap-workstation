@@ -29,9 +29,25 @@ sudo add-apt-repository ppa:graphics-drivers/ppa
 
 ### [Snapcraft](https://snapcraft.io/)
 
-## Software & Tools
+## Software & Tweaks
 
 ### Systems
+
+#### Display & Scaling
+
+Enabling GNOME experimental features for fractional scaling (by default GNOME support 100, 200, 300% scaling only)
+
+```sh
+gsettings set org.gnome.mutter experimental-features "['x11-randr-fractional-scaling']"
+```
+
+Then the display setting will show the scaling of  100, 125, 150, 175, and 200. It can be reset with
+
+```sh
+gsettings reset org.gnome.mutter experimental-features
+```
+
+
 
 #### ZSH
 
