@@ -1,6 +1,6 @@
 # Bootstrapping Working Workstations
 
-After a few years working mostly on macOS and Linux, I have recently made a return to Windows with an old Lenovo Thinkpad T430s.
+After a few years working mostly on macOS and Linux, I have recently made a return to Windows with some old Lenovo Thinkpads.
 
 It took me few rounds of struggling with dual boot Windows and Linux, especially with UEFI involving (re)-formatting and (re-)installing.
 
