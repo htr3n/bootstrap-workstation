@@ -215,7 +215,7 @@ choco install -y jetbraintoolbox
 
 # R Project for Statistical Computing
 # https://www.r-project.org
-choco install r.project
+choco install -y r.project
 
 # R Studio Desktop
 # https://www.rstudio.com
@@ -244,7 +244,7 @@ choco install -y php
 
 # WinDbg
 # https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugger-download-tools
-choco install -y windbg
+#choco install -y windbg
 
 
 ##########################################################################
@@ -257,7 +257,7 @@ choco install -y typora
 
 # Notepad++
 # https://notepad-plus-plus.org
-choco install -y notepadplusplus
+#choco install -y notepadplusplus
 
 # Emacs
 # http://www.gnu.org/software/emacs/
@@ -314,7 +314,7 @@ choco install -y RobotoFonts
 ##########################################################################
 # AIDA64 (formerly Lavalys EVEREST Ultimate)
 # https://www.aida64.com/
-#choco install -y aida64-extreme
+choco install -y aida64-extreme
 
 # Hard Disk Sentinel
 # https://www.hdsentinel.com
@@ -331,7 +331,7 @@ choco install -y samsung-magician
 
 # CPU-Z
 # https://cpuid.com/softwares/cpu-z.html
-choco install -y cpu-z
+#choco install -y cpu-z
 
 ##########################################################################
 # OTHERS
@@ -412,4 +412,5 @@ git config --global user.name "Huy Tran"
 
 # Generating SSH keypair
 #
+mkdir $env:HOMEPATH/.ssh/
 ssh-keygen -t rsa -b 4096 -C "hoang.huy.tran@gmail.com" -f $env:HOMEPATH/.ssh/id_rsa -N '""'
