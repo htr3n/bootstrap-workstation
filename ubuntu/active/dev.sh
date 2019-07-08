@@ -19,6 +19,10 @@ sudo snap install --classic intellij-idea-ultimate
 sudo apt-get install -y pipenv
 sudo snap install --classic pycharm-professional
 
+# PhpStorm
+sudo snap install --classic phpstorm
+
+
 # JavaScript, Node.js, NPM, Yarn
 #[ ! `which node` ] && sudo apt-get install -y nodejs
 #[ ! `which npm` ] && sudo apt-get install -y npm
