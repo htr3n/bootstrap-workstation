@@ -13,7 +13,7 @@ The task is rather difficult as it involves third-party tools and some special c
 There are numerous Linux distros with different variants. I used to work with Debian/Ubuntu in the recent past and somehow RedHat/Fedora before that. To refresh my memory, I give a try with Ubuntu, Fedora, and Arch Linux.
 It's perhaps a bit easier thanking to the availability of good built-in package management in most distros. Nonetheless, due to the different in package management and configuration, I split into three different folders for three distros, respectively.
 
-* [Debian/Ubuntu](debian)
+* [Ubuntu](ubuntu)
 * [Fedora](fedora)
 * [Arch](arch)
 
