@@ -10,4 +10,4 @@ fi
 
 
 # clean up
-sudo apt autoremove
+#sudo apt autoremove
